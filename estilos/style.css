@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main, footer {
+    margin: 0px auto;
+    text-align: left;
+    width: 1440px;  
+}
+
+.descuentos {
+    background-color: 
+    #1CD1B0;
+    height: 23px;
+    font-size: 15px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo {
+    background-color: #00669F;
+    height: 81px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navegacion {
+    background-color: #001D2D;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    width: 251px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 11px;
+    padding-right: 20px;
+    list-style: none;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    height:912px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.batman1, .harley, .batman2 {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 529px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+
+#fotoBatman1, #fotoHarley, #fotoBatman2 {
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.info p {
+    width: 267px;
+    height: 113px;
+    margin-top: 10px;
+}
+
+.fas {
+    z-index: 200;
+    color: red;
+    margin-top: -180px;
+    width: 30px;
+    height: 30px;
+    margin-left: -240px;
+}
+
+.boton {
+    background-color: #00669F;
+    color: white;
+    width: 128.78px;
+    height: 48.52px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;   
+}
+
+footer p{ 
+    background-color: #00669F;
+    height: 61px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Formulario*/
+
+.principal1 {
+    background-color: #00669F;
+    width: 954px;
+    height: 832px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-around;
+    line-height: 45px;
+}
+
+.tituloprincipal1 h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.dobleColumna {
+    display: flex;
+}
+
+.primeracolumna1, .segundacolumna1{
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    padding: 10px;
+}
+
+#nombre, #fecha, #especie {
+    height: 63px;
+    border-radius: 16px;
+    padding-left: 10px;
+    border: none;
+}
+
+#descripcion {
+    height: 307px;
+    border-radius: 16px;
+    padding: 20px 222px 267px 10px;
+    margin-top: 10px;
+}
+
+#archivo {
+    border-radius: 5px;
+    height: 32px;
+}
+
+.botonAñadir {
+    background-color: #1CD1B0;
+    width: 466px;
+    height: 87px;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 23px;
+    border: none;
+}
